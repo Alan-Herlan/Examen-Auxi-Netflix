@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Alan-Herlan/Examen-Auxi-Netflix.git/static/css/main.b0b792ae.css",
+    "main.js": "/Alan-Herlan/Examen-Auxi-Netflix.git/static/js/main.45cd67d5.js",
+    "index.html": "/Alan-Herlan/Examen-Auxi-Netflix.git/index.html",
+    "main.b0b792ae.css.map": "/Alan-Herlan/Examen-Auxi-Netflix.git/static/css/main.b0b792ae.css.map",
+    "main.45cd67d5.js.map": "/Alan-Herlan/Examen-Auxi-Netflix.git/static/js/main.45cd67d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0b792ae.css",
+    "static/js/main.45cd67d5.js"
+  ]
+}
