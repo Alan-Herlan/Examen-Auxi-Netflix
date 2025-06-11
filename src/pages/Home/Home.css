@@ -1,0 +1,63 @@
+.container {
+  background-color: #121212; 
+  color: #c00e0e;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e50914; 
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.movie-card {
+  background-color: #222;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.movie-card img {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #0a0909;
+}
+
+.movie-card h3 {
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  color: #2b1d1d;
+}
+
+.movie-card h3 span {
+  color: #2c1a1a;
+  font-weight: normal;
+  font-size: 0.9rem;
+  margin-left: 0.3rem;
+}
+
+
+.movie-card p {
+  margin: 0 0.5rem 0.5rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(229, 9, 20, 0.7);
+}
+
+
+

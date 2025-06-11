@@ -1,0 +1,24 @@
+.movie-details-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  color: white;
+  background: #111;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.back-button {
+  background: transparent;
+  border: none;
+  color: #0af;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

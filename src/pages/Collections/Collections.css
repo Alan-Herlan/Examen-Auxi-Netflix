@@ -1,0 +1,40 @@
+.collections-container {
+  padding: 1rem;
+}
+
+.collection {
+  margin-bottom: 2rem;
+}
+
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.movie-card {
+  width: 150px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 6px;
+  text-align: center;
+  background: #f9f9f9;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.movie-card h4 {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+}
+
